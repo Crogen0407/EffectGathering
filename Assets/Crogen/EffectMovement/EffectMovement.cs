@@ -4,18 +4,15 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class EffectMovement : MonoBehaviour
-
+{
     public bool Loop = false;
     public UnityEvent lastEvent;    
 
-
-    // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
