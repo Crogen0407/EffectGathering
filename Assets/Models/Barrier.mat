@@ -58,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EffectTexture:
-        m_Texture: {fileID: 2800000, guid: bf2b78f677f34644fa6a51ba928f8854, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission:
@@ -120,7 +120,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IsPixelShader: 1
+    - _IsPixelShader: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Offset: -1
@@ -141,8 +141,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0, g: 4.4362993, b: 42.722507, a: 1}
-    - _MainColor_2: {r: 0.12415449, g: 0.19463514, b: 0.254717, a: 1}
+    - _MainColor: {r: 0, g: 2.9862766, b: 28.51895, a: 1}
+    - _MainColor_2: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SubColor: {r: 57.037895, g: 31.87232, b: 0, a: 1}
+    - _SubColor: {r: 10.680627, g: 2.957126, b: 0, a: 1}
   m_BuildTextureStacks: []

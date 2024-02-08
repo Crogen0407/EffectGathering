@@ -811,7 +811,7 @@
     },
     "m_PreviewData": {
         "serializedMesh": {
-            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_SerializedMesh": "{\"mesh\":{\"fileID\":10210,\"guid\":\"0000000000000000e000000000000000\",\"type\":0}}",
             "m_Guid": ""
         },
         "preventRotation": false
@@ -5799,6 +5799,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "ef71d6119a504ac2a00bc3b6edc7559d",
+    "m_Id": -31225627,
+    "m_DisplayName": "UV",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_UV",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "efd21aa013884b5c83d31b0d60ae948f",
     "m_Group": {
@@ -6010,6 +6031,9 @@
             "m_Id": "7cf102caeeba406d9829dd5a47526489"
         },
         {
+            "m_Id": "ef71d6119a504ac2a00bc3b6edc7559d"
+        },
+        {
             "m_Id": "c1dc256a3e5d48e293e52f661b39b246"
         }
     ],
@@ -6023,10 +6047,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"70140ad4ebc209342aedd99b9fc01767\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "c665c50d-725f-49dc-b83c-e9b90153d95a"
+        "c665c50d-725f-49dc-b83c-e9b90153d95a",
+        "9487c5a6-a72b-41dd-bc93-439dd4793ab6"
     ],
     "m_PropertyIds": [
-        1820973291
+        1820973291,
+        -31225627
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
