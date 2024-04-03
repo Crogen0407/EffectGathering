@@ -4921,6 +4921,9 @@
             "m_Id": "0abc7da5a7854893b9cc1ffa11f2414e"
         },
         {
+            "m_Id": "c36d886fdcb645e2bb23dae8cf1a9fc7"
+        },
+        {
             "m_Id": "60828df67b2240eaa837ade06dcf0718"
         }
     ],
@@ -4934,10 +4937,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"70140ad4ebc209342aedd99b9fc01767\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "c665c50d-725f-49dc-b83c-e9b90153d95a"
+        "c665c50d-725f-49dc-b83c-e9b90153d95a",
+        "9487c5a6-a72b-41dd-bc93-439dd4793ab6"
     ],
     "m_PropertyIds": [
-        1820973291
+        1820973291,
+        -31225627
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -8088,6 +8093,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "a6eb8950dd4c4c75b3275fcac8ce79ed",
+    "m_Id": -31225627,
+    "m_DisplayName": "UV",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_UV",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a7dd1b8d4275486781a71b1306b45a99",
     "m_Id": 0,
@@ -9084,6 +9110,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "c36d886fdcb645e2bb23dae8cf1a9fc7",
+    "m_Id": -31225627,
+    "m_DisplayName": "UV",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_UV",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
     "m_ObjectId": "c45dfb35fdff4f1daad5aaccd9aa2aff",
     "m_Group": {
@@ -9105,6 +9152,9 @@
             "m_Id": "8b75ce21277f4661a9dd6d82bb80ef72"
         },
         {
+            "m_Id": "a6eb8950dd4c4c75b3275fcac8ce79ed"
+        },
+        {
             "m_Id": "b6819adc6bdd40b98df46e6d8910d73b"
         }
     ],
@@ -9118,10 +9168,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"70140ad4ebc209342aedd99b9fc01767\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "c665c50d-725f-49dc-b83c-e9b90153d95a"
+        "c665c50d-725f-49dc-b83c-e9b90153d95a",
+        "9487c5a6-a72b-41dd-bc93-439dd4793ab6"
     ],
     "m_PropertyIds": [
-        1820973291
+        1820973291,
+        -31225627
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
